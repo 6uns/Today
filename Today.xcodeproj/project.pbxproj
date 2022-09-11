@@ -15,6 +15,7 @@
 		D7353B7728CE564E001EE184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7353B7528CE564E001EE184 /* LaunchScreen.storyboard */; };
 		D7353B8028CE5905001EE184 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7353B7F28CE5905001EE184 /* Reminder.swift */; };
 		D7353B8228CE679E001EE184 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7353B8128CE679E001EE184 /* Date+Today.swift */; };
+		D7353B8728CE6E37001EE184 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7353B8628CE6E37001EE184 /* ReminderListViewController+DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D7353B7828CE564E001EE184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7353B7F28CE5905001EE184 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		D7353B8128CE679E001EE184 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		D7353B8628CE6E37001EE184 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,10 @@
 		D7353B6928CE564B001EE184 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				D7353B8328CE6DCE001EE184 /* ListViewController */,
 				D7353B7E28CE58F3001EE184 /* Models */,
 				D7353B6A28CE564B001EE184 /* AppDelegate.swift */,
 				D7353B6C28CE564B001EE184 /* SceneDelegate.swift */,
-				D7353B6E28CE564B001EE184 /* ReminderListViewController.swift */,
 				D7353B7028CE564B001EE184 /* Main.storyboard */,
 				D7353B7328CE564E001EE184 /* Assets.xcassets */,
 				D7353B7528CE564E001EE184 /* LaunchScreen.storyboard */,
@@ -79,6 +81,15 @@
 				D7353B8128CE679E001EE184 /* Date+Today.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D7353B8328CE6DCE001EE184 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D7353B6E28CE564B001EE184 /* ReminderListViewController.swift */,
+				D7353B8628CE6E37001EE184 /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				D7353B6B28CE564B001EE184 /* AppDelegate.swift in Sources */,
 				D7353B6D28CE564B001EE184 /* SceneDelegate.swift in Sources */,
 				D7353B8028CE5905001EE184 /* Reminder.swift in Sources */,
+				D7353B8728CE6E37001EE184 /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
